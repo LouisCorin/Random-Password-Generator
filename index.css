@@ -1,3 +1,36 @@
 body {
     margin: 0;
+    color: white;
+}
+#body_hero{
+    background-color: #1F2937;
+    height: 550px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    padding: 115px 0px 0px 50px;
+}
+h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-right: 80px;
+    margin: 0px;
+}
+#span{
+    color: #4ADF86;
+}
+#sub-h{
+    font-size: 20px;
+    margin-top: 10px;
+}
+button{
+    height: 45px;
+    width: 180px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #10B981;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
 }
