@@ -1,6 +1,11 @@
 body {
     margin: 0;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: 1px solid black;
 }
 #body_hero{
     background-color: #1F2937;
@@ -41,7 +46,7 @@ hr{
     width: absolute;
     margin: 30px 80px 0px 0px;
 }
-#left-pw, #right-pw{
+#password-1, #password-2{
     width: 211px;
     height: 39px;
     left: 52px;
@@ -49,10 +54,18 @@ hr{
     background: #273549;
     border-radius: 6px;
     margin: 0px;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#4ADF86;
+    font-size: 20px;
 }
 
 .pw-button{
     display: flex;
     margin: 30px 80px 0px 0px;
     justify-content: space-between;
+
 }
